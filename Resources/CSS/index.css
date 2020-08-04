@@ -1,0 +1,160 @@
+/* CSS */
+:root {
+    --dark-sea-green: hsla(117, 20%, 64%, 1);
+    --davys-grey: hsla(105, 2%, 36%, 1);
+    --battleship-grey: hsla(120, 3%, 55%, 1);
+    --platinum: hsla(60, 5%, 88%, 1);
+    
+    --pale-spring-bud: hsla(60, 69%, 84%, 1);
+    --xanadu: #8A918A;/*hsla(120, 5%, 49%, 1);*/
+    --battleship-grey: hsla(120, 3%, 55%, 1);
+    --platinum: hsla(60, 5%, 88%, 1);
+    
+    --sage: hsla(60, 21%, 67%, 1);
+    --steel-teal: hsla(180, 12%, 44%, 1);
+    --jet: hsla(300, 4%, 24%, 1);
+    --platinum: hsla(60, 5%, 88%, 1);
+    
+    --polished-pine: hsla(160, 25%, 51%, 1);
+    --dark-liver: hsla(288, 4%, 27%, 1);
+    --dark-liver-2: hsla(290, 7%, 35%, 1);
+    --cultured: hsla(0, 0%, 97%, 1);
+    
+    --main-bg-color: var(--cultured);
+    
+    }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.jumbotron {
+    /*background-image: url("../sample-5.jpg");
+    background-size: 100% 100%;*/
+    background-color: rgb(83, 107, 103);
+    background-attachment: fixed;
+    background-position-x: 100%;
+    background-position-y: 50%;
+    height: 800px;
+    margin: 0;
+}
+
+nav {
+    margin: 0 0 50px 0;
+}
+
+nav ul {
+    height: 40px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    color: white;
+    height: 16px;
+    width: 100px;
+    text-align: center;
+    margin: 12px 0;
+    border: none;
+}
+
+nav li a {
+    color: white;
+    text-decoration-line: none;
+}
+
+nav li a:hover {
+    color:black;
+}
+
+.links {
+    float: right;
+}
+
+.jumbotron h1, .jumbotron p {
+    color: white;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+.view {
+    padding: 0;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+section h2{
+    /*height: 300px;*/
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+section {
+    padding: 20px 0;
+}
+
+.section_main {
+    min-height: 200px;
+    background-color: var(--main-bg-color);
+    padding: 0;
+}
+
+.section_about {
+    background-color: var(--main-bg-color);
+}
+
+.section_work {
+    background-color: var(--main-bg-color);
+}
+
+.section_contact {
+    background-color: var(--battleship-grey);
+    min-height: 500px;
+}
+
+/*Added this to move PDF link to the bottom of the container column
+.doc_link {
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}*/
+
+.doc_link img {
+    text-align: middle;
+}
+
+.job {
+    margin-bottom: 50px;
+}
+
+.job_title {
+    font-size: 22px;
+}
+
+.job_employer {
+    font-size: 14px;
+    margin-right: 5px;
+}
+ 
+.job_duration {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.job p {
+    margin-bottom: 5px;
+}
+
+#linkedin {
+    margin-right: 5px;
+}
+
+#github {
+    margin-left: 5px;
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+}
