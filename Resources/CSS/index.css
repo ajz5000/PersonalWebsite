@@ -39,6 +39,11 @@ html {
     margin: 0;
 }
 
+#greeting {
+    font-weight: 600;
+    font-size: 72px;
+}
+
 nav {
     /* margin: 0 0 50px 0; */
 }
