@@ -40,7 +40,7 @@ html {
 }
 
 nav {
-    margin: 0 0 50px 0;
+    /* margin: 0 0 50px 0; */
 }
 
 nav ul {
@@ -81,6 +81,7 @@ nav li a:hover {
     position: relative;
     height: 100vh;
     width: 100%;
+    background-color: var(--main-bg-color);
 }
 
 section h2{
@@ -90,6 +91,10 @@ section h2{
 
 section {
     padding: 20px 0;
+}
+
+.container-fluid {
+    height: 100%;
 }
 
 .section_main {
@@ -106,9 +111,17 @@ section {
     background-color: var(--main-bg-color);
 }
 
-.section_contact {
+.section_contact{
     background-color: var(--battleship-grey);
-    min-height: 500px;
+    height: 100vh;
+}
+
+.contact_head {
+    color: var(--cultured)
+}
+
+.contact_p, .contact_h3 {
+    color: var(--cultured)
 }
 
 /*Added this to move PDF link to the bottom of the container column
@@ -157,4 +170,8 @@ section {
 footer {
     text-align: center;
     font-size: 10px;
+}
+ 
+.tina {
+    top: 90%;
 }
